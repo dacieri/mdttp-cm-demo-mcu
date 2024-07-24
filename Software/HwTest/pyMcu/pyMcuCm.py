@@ -15,7 +15,7 @@
 # Append hardware classes folder to Python path.
 import os
 import sys
-sys.path.append(os.path.relpath(os.path.join(os.path.dirname(__file__), 'hw')))
+sys.path.append(os.path.relpath(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'hw')))
 
 
 
